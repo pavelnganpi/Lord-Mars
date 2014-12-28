@@ -26,7 +26,7 @@ public class Story {
                     R.drawable.page1,
                     "You deftly land your ship near where the distress signal originated. You didn't notice anything strange on your fly-by, but there is a cave in front of you. Behind you is an abandoned rover from the early 21st century.",
                     new Choice("Explore the cave", 3),
-                    new Choice("Explore the rover", 4));
+                    new Choice("Explore the rover", 4));//awesome mennn,yeah
 
             mPages[2] = new Page(
                     R.drawable.page2,
