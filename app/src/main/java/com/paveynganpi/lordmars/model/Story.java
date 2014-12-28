@@ -20,7 +20,7 @@ public class Story {
                     R.drawable.page0,
                     "On your return trip from studying Saturn's rings, you hear a distress signal that seems to be coming from the surface of Mars. It's strange because there hasn't been a colony there in years. Even stranger, it's calling you by name: \"Help me, %1$s, you're my only hope.\"",
                     new Choice("Stop and investigate", 1),
-                    new Choice("Continue home to Earth", 2));
+                    new Choice("Continue home to Earth", 2));//not null, ok this is not important
 
             mPages[1] = new Page(
                     R.drawable.page1,
