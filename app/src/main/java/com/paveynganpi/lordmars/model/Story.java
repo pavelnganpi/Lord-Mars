@@ -20,13 +20,13 @@ public class Story {
                     R.drawable.page0,
                     "On your return trip from studying Saturn's rings, you hear a distress signal that seems to be coming from the surface of Mars. It's strange because there hasn't been a colony there in years. Even stranger, it's calling you by name: \"Help me, %1$s, you're my only hope.\"",
                     new Choice("Stop and investigate", 1),
-                    new Choice("Continue home to Earth", 2));//not null, ok this is not important
+                    new Choice("Continue home to Earth", 2));//this is fifth branch
 
             mPages[1] = new Page(
                     R.drawable.page1,
                     "You deftly land your ship near where the distress signal originated. You didn't notice anything strange on your fly-by, but there is a cave in front of you. Behind you is an abandoned rover from the early 21st century.",
                     new Choice("Explore the cave", 3),
-                    new Choice("Explore the rover", 4));//chelsea rocks
+                    new Choice("Explore the rover", 4));
 
             mPages[2] = new Page(
                     R.drawable.page2,
